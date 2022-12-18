@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -23,5 +21,7 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
+
 }
+
 // Stopped at https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1#4
